@@ -1,0 +1,56 @@
+:root {
+    --background: rgba(34, 34, 34);
+    --headerbackground: rgba(87, 127, 228,1);
+    --textcolor: rgba(204, 204, 204);
+    --body-fonts: 'Futura', sans-serif;
+}
+    
+
+header {
+    text-align: center;
+    padding: 0px;
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+}
+
+/* navigation styling begin */
+nav {
+    color: #000);
+    font-family: 'Futura', sans-serif;
+}
+
+nav ul {
+    margin: 10;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    float: center;
+    letter-spacing: 5px;
+    margin-bottom: 1em;
+    margin-left: 1em;
+    display: inline;
+    font-size: 120%;
+    border-radius: 10px;
+}
+
+nav a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 1.1em;
+    text-transform: uppercase;
+}
+
+nav a:hover {
+    color: #E1FF32;
+}
+/* navigation styling end */
+
+
+body {
+    background-color: #cccccc;
+   }
+  }
